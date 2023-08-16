@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{15801B8B-D9C5-4BFA-93E3-845A0A31DAD9}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <RootNamespace>FinanceAssessment.Tests</RootNamespace>
+        <AssemblyName>FinanceAssessment.Tests</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug</OutputPath>
+        <DefineConstants>DEBUG;</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+          <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="System" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="NSubstitute" Version="5.0.0" />
+        <PackageReference Include="NUnit" Version="2.6.4" />
+        <PackageReference Include="System.Core" Version="3.5.21022.801" />
+        <PackageReference Include="System.Memory" Version="4.5.5" />
+        <PackageReference Include="Xamarin.UITest" Version="2.2.4" />
+        <PackageReference Include="xunit" Version="2.4.2" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Configuration\AppSettingsManagerTests.cs" />
+        <Compile Include="Models\Product\PeriodTests.cs" />
+        <Compile Include="Models\Product\ProductsTests.cs" />
+        <Compile Include="Models\Product\ProductTests.cs" />
+        <Compile Include="Models\Product\TermTests.cs" />
+        <Compile Include="Repository\RepositoryTests.cs" />
+        <Compile Include="Services\ProductServiceTests.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\FinanceAssessment\FinanceAssessment.csproj">
+        <Project>{fb897ff9-09d8-4860-880a-6ff5b0b76527}</Project>
+        <Name>FinanceAssessment</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Repository\badDataTestProducts.json" />
+      <Content Include="Repository\testProducts.json" />
+    </ItemGroup>
+    <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

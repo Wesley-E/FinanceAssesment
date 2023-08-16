@@ -1,0 +1,46 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2a84fe48_002Dad0b_002D41fc_002Dbca5_002Ded0cc4a1a7eb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;And&gt;
+      &lt;Not&gt;
+        &lt;TestAncestor&gt;
+          &lt;TestId&gt;NUnit2x::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.AppTests&lt;/TestId&gt;
+        &lt;/TestAncestor&gt;
+      &lt;/Not&gt;
+      &lt;TestAncestor&gt;
+        &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.ProductTests&lt;/TestId&gt;
+      &lt;/TestAncestor&gt;
+    &lt;/And&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Repository.RepositoryTests.RepositoryLoadProducts_SuccessfullyLoadsProducts_ForValidPath&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=37e26201_002D8adc_002D4414_002Dafb6_002Dfc68da7fbf28/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RepositoryLoadProducts_SuccessfullyLoadsProducts_ForValidPath" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Not&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit2x::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.AppTests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Not&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8693bb69_002Df0d8_002D4d7a_002Daeb6_002Db852b983ab60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PeriodAddPeriod_IncrementsPeriod_ByGivenPeriod" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Not&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit2x::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.AppTests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Not&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e7764d1b_002D3659_002D4485_002Da2bb_002D560b7dfab165/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateProduct_BuildsProduct_ReturnsProduct" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.PeriodTests.PeriodInit_Sets_PeriodParameters&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.PeriodTests.PeriodCompletionDayIndex_ReturnsCorrectDayIndex_FromDateTime&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.PeriodTests.PeriodAddPeriod_AddsPeriodCorrectly_FromPeriod&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.TermTests.TermNumberOfCompleted_ReturnsOneCompletedPeriods_WhenPeriodLengthsEqual&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.TermTests.TermNumberOfCompleted_ReturnsCorrectCompletedPeriods_FromPeriod&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.PeriodTests.PeriodThrowsError_When&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.ProductTests.ProductYield_ReturnsCorrectAmount&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.ProductTests.ProductYield_ReturnsInputAmount_WhenInvestmentPeriodIsLessThanProduct&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.ProductTests.ProductYield_ReturnsCorrectAmount_WhenInvestmentIsCompounded&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::15801B8B-D9C5-4BFA-93E3-845A0A31DAD9::.NETFramework,Version=v4.8::AlmisAssessment.Tests.Models.PeriodTests.PeriodAddPeriod_IncrementsPeriod_ByGivenPeriod&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,22 @@
+{
+  "productA": {
+    "interestRate": {
+      "amount": 0.03
+    },
+    "period": {
+      "days": 0,
+      "weeks": 0,
+      "months": 0,
+      "years": 2}
+  },
+  "productB": {
+    "interestRate": {
+      "amount": 0.0295
+    },
+    "period": {
+      "days": 0,
+      "weeks": 0,
+      "months": 1,
+      "years": 0}
+  }
+}

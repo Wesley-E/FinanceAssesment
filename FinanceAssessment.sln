@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceAssessment", "FinanceAssessment\FinanceAssessment.csproj", "{FB897FF9-09D8-4860-880A-6FF5B0B76527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceAssessment.Tests", "FinanceAssessment.Tests\FinanceAssessment.Tests.csproj", "{15801B8B-D9C5-4BFA-93E3-845A0A31DAD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB897FF9-09D8-4860-880A-6FF5B0B76527}.Debug|x86.ActiveCfg = Debug|x86
+		{FB897FF9-09D8-4860-880A-6FF5B0B76527}.Debug|x86.Build.0 = Debug|x86
+		{FB897FF9-09D8-4860-880A-6FF5B0B76527}.Debug|x86.Deploy.0 = Debug|x86
+		{FB897FF9-09D8-4860-880A-6FF5B0B76527}.Release|x86.ActiveCfg = Release|x86
+		{FB897FF9-09D8-4860-880A-6FF5B0B76527}.Release|x86.Build.0 = Release|x86
+		{FB897FF9-09D8-4860-880A-6FF5B0B76527}.Release|x86.Deploy.0 = Release|x86
+		{15801B8B-D9C5-4BFA-93E3-845A0A31DAD9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{15801B8B-D9C5-4BFA-93E3-845A0A31DAD9}.Debug|x86.Build.0 = Debug|Any CPU
+		{15801B8B-D9C5-4BFA-93E3-845A0A31DAD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{15801B8B-D9C5-4BFA-93E3-845A0A31DAD9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
